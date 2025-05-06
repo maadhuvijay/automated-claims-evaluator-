@@ -1,4 +1,4 @@
-**The following content is AI generated and might contain incorrect information. Before you use this content, make sure to review for inaccuracies.**    
+
 # Summary    
 The purpose of this workflow is to extract specific fields from a document (new_claim.pdf), analyze the content using a custom model (claim-forms-model2), extract relevant information such as form type, claim ID, policy number, etc., and then join this extracted data with the sentiment analysis of the incident description. Finally, the workflow creates a CSV file containing the extracted claim fields and incident sentiment and stores it in a specified Azure Blob Storage container.    
 ||Workflow Properties|Value|    
